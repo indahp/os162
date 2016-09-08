@@ -1,0 +1,1 @@
+tutorial: making directory in badak, doing pull and push to git and badak 
