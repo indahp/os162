@@ -1,0 +1,19 @@
+total 64
+drwxr-xr-x 15 indah.permatasari62 StafCS 4096 Sep  8 14:50 .
+drwx--x--x  3 indah.permatasari62 StafCS 4096 Sep  8 14:48 ..
+drwxr-xr-x  8 indah.permatasari62 StafCS 4096 Sep  8 14:50 .git
+-rw-r--r--  1 indah.permatasari62 StafCS    0 Sep  8 14:52 lab01.txt
+-rw-r--r--  1 indah.permatasari62 StafCS    7 Sep  8 14:20 README.md
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:38 SandBox
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:48 week00
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week01
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week02
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week03
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week04
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week05
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week06
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week07
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week08
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:32 week09
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:32 week10
+/home/fasilkom/mahasiswa/i/indah.permatasari62/os162/week01
