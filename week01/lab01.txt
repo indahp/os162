@@ -17,3 +17,4 @@ drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:31 week08
 drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:32 week09
 drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep  8 14:32 week10
 /home/fasilkom/mahasiswa/i/indah.permatasari62/os162/week01
+Today is 08 Sep 2016 at 15:15:46
