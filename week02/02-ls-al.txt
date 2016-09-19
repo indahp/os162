@@ -1,0 +1,6 @@
+total 12
+drwxr-xr-x  2 indah.permatasari62 StafCS 4096 Sep 16 12:54 .
+drwxr-xr-x 15 indah.permatasari62 StafCS 4096 Sep 16 12:51 ..
+-rw-r--r--  1 indah.permatasari62 StafCS 3107 Sep 16 12:51 01-public-osteam.txt
+-rw-r--r--  1 indah.permatasari62 StafCS    0 Sep 16 12:54 02-ls-al.txt
+-rw-r--r--  1 indah.permatasari62 StafCS    0 Sep  8 14:31 dummy
