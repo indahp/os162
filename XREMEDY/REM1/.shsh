@@ -1,0 +1,47 @@
+#!/bin/bash
+
+current='pwd'
+base='basename "$current"'
+d1=dir1
+d2=dir2
+d3=dir3
+
+if [ "$base" = "$d1" ]
+then
+	a=0
+	ls | while read line
+	do
+	((a++))
+		echo "mv $line ape-2016-11-09-small-$a.jpg" >> .output
+	done
+
+elif [ "$base" = "$d2" ]
+then
+        a=0
+        ls | while read line
+        do
+                ((a++))
+		printf -v a "%02d" $a
+                echo "mv $line ape-2016-11-09-small-$a.jpg" >> .output
+        done
+
+elif [ "$base" = "$d3" ]
+then
+        a=0
+        ls | while read line
+        do
+                ((a++))
+		printf -v a "%03d" $a
+                echo "mv $line ape-2016-11-09-small-$a.jpg" >> .output
+        done
+
+else
+        a=0
+        ls | while read line
+        do
+                ((a++))
+                echo "mv $line ape-2016-11-09-small-$a.jpg" >> .output
+        done
+fi
+
+
