@@ -1,0 +1,40 @@
+Overview: Active Directory Directory Services Structure in Windows Server 2012
+
+Sebagai tugas mingguan untuk mata ajar Operating System, mahasiswa diminta untuk mencari dan mengulas video yang berkaitan dengan operating system. Pada kali ini penulis akan mengulas mengenai “Active Directory Directory Service” berdasarkan penjelasan yang disampaikan oleh Eli the Computer Guy pada video yang diunggah pada tertanggal 22 Februari 2013 dengan judul Introduction to Active Directory Directory Services Structure in Windows Server 2012. Video berdurasi 46:30.
+
+Melalui videonya Eli menjelaskan mengenai apa itu Active Directory Directory Services, mengapa Active Directory Directory Services sangat penting bagi windows environment, dan bagaimana struktur/konsep dari Active Directory Directory Services berdasarkan windows server 2012. Terdapat 3 perihal utama pada Active Directory Directory Services yang dijelaskan oleh Eli kali ini antara lain (1) Domains, (2) Trees, (3) Forest, dan (4) Trust, yang menjadi sub bagian dalam penjelasana Active Directory Directory Services.
+
+What is Active Directory Directory Services and Why is so important in the windows environment
+
+Active Directory Directory Services (ADDS) merupakan layanan server sebagai security dan permission pada suatu windows environment. Misalnya pada saat kita ingin mengatur sebuah komputer dan membuat suatu security police, kita perlu menggunakan active directory directory services; atau pada saat kita ingin mengatur suatu VPN connection dan hanya untuk user tertentu saja dengan menggunakan VPN connection security, kita perlu akses ke active directory directory services.
+
+Secara sederhana active directory directory services disebut juga dnegan single sign-on. Disebut demikian karena active directory directory services memungkinkan seorang administrator untuk lebih mudah memberikan konsultasi kepada user dan memberikan permission kepada PC untuk melakukan suatu koneksi jaringan sebanyak-banyaknya. Hal inilah yang menjadi alasan mengapa active directory directory services menjadi sangat penting karena hanya dengan single sign-on, sistem atau pengguna dapat mengakses ke komputer dan dapat berbagi file dan folder bahkan lebih dari itu dapat melakukan sharing jaringan/VPN di berbagai bagian pada windows environment.
+
+Terdapat 3 bagian utama yang menjadi konsep pada active directory directory services, antara lain:
+
+Domain Controller
+Domain controller (DC) merupakan pengontrol pada active directory directory services. Dalam melakukan kerjanya DC memerlukan 2 hal utama yang menjadi dasar kontrol kerja yaitu:
+
+    User Account, merupakan ID user misalnya username, password, email address dan sebagainya.
+    Computer Account, merupakan ID komputer misalnya computer name dan sebagianya.
+
+
+Pada DC, dibentuklah yang disebut dengan Schema, yang berisikan informasi data ID baik ID user maupun ID computer. Dalam Schema yang menjadi pokok adalah tipe dari data/informasi dari masing-masing informasi dasar. Untuk tujuan keamanan, schema akan membuat suatu Group; sedangkan untuk keperluan administrator, schema akan membuat Organizational Units (Oh use).
+
+Trees
+Berdasarkan penjelasakan domain control maka seharusnya DC dapat dibangun dan bedakan berdasarkan kategorinya. Misalnya Google, google memiliki google.com lalu google.com membuat DC lainnya di asia (asia.google.com), eropa (eropa.google.com), dll. Berdasarkan cara membangun/mengembangan bagian-bagiannya, google akan terhubung satu sama lain sebagai pusat informasi atau bentuk sharing informasi/data.
+Perkembangan DC dimana satu sama lain saling bergantu dan terikat dalam satu domain yang sama ini yang kemudian membuat sebuah trees.
+
+Forest
+Setelah membentuk suatu tree maka bila ada banyak domain yang membentuk tree yang kemudian masing-masing DC dapat melakukan sharing meskipun hanya dalam 1 kategori saja informasi yang ingin dibagian guna memberikan manfaat bagi pengguna, maka dapat dibayangkan akan ada banyak tree yang membentuk suatu kumpulan. Hubunan inilah yang disebut dengan forest.
+
+Trust
+Dalam hubungan yang kemudian dibentuk baik oleh antar DC maupun antar Tree tersebut dihubungan oleh suatu misi yang disepakati antar domain/tree tersebut. Misalnya sebagai bentuk pemasaran, depatement motorola memberikan hak akses atau sharing informasi kepada google. Hubungan kerjasama yang dibentuk ini dapat dibedakan menjadi one-way explicit (salah satunya saja) atau two-way implicit (keduanya) yang kemudian hubungan ini disebut dengan trust. Dimana satu sama lain saling percaya terhadap hak akses oleh masing-masing administrator.
+
+Pembahasan ini yang disajikan dalam bentuk video ini sangat menarik untuk ditonton. materi disajikan secara sederhana dengan contoh yang umum dan mudah dipahami. secara serderhana berdasarkan pemahaman dari video yang menggambarkan hubungan dalam suatu struktur dari active directory directory services pada windows server 2012 sebagai berikut:
+
+Github Account yang digunakan oleh penulis adalah indahp (https://github.com/indahp/).
+URL ulasan 1 tersaji pada http://indahp-os162-ulasan.blogspot.co.id/2016/12/overview-active-directory-directory_4.html
+URL video dapat ditonton pada halaman https://www.youtube.com/watch?v=lFwek_OuYZ8 (durasi 46 menit 30 detik).
+Submit revisi pertama adalah pada Minggu, 4 Desember 2016.
+
