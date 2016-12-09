@@ -1,21 +1,6 @@
-Understanding Switches
-
-Melanjutkan ulasan-1 yang membahas terkait "Active Directory Directory Services in Windows Server 2012", pada halaman ini penulis akan membahas hal lainnya yang masih berkaitan dengan Operating System. Pembahasan ini pun masih diusung berdasarkan video oleh Eli the Computer Guy yang berjudul Understanding Switches. Video pertama kali diunggah ke media online pada tanggal 17 Februari 2011 dengan durasi 59:09.
-
-Sejauh ini masyarakat awam mengenal switches hanya sebagai media yang menghubungkan antar satu device ke suatu jaringan. Menghubungkan komputer ke jaringan, menghubungkan printer ke jaringan, dan lain sebagainya. Padahal lebih dari itu, switches memiliki struktur yang unik yang sangat bermanfaat bagi penggunanya yang tentunya hal penting bagi pengguna adalah memiliki media penghubung dengan kualitas bagus namun dengan harga yang juga sesuai dengan kantong pengguna. Untuk itulah pada videonya, Eli menjelaskan apa itu switches dan kenapa itu penting, apa saja struktur dari switches serta manfaatnya. Berdasarkan penjelasan tersebut akan dirangkum oleh penulis pada halaman blog ini.
-
-What is switches and why so important?
-Switches merupakan jaringan penghubung antar perangkat (berfungsi sebagai konektor). Bila kita membahas mengenai switches maka perlu dikenal pula penghubung sebelumnya yang dikenal dengan Hub. Hub memiliki fungsi yang sama dengan switches yaitu sebagai penghubung. Perbedaannya Hub melakukan tugasnya secara terbuka. Maksudnya adalah sama seperti sebuah plugin listrik (kabel listrik), kabel listrik di rumah yang memiliki banyak cabang listrik sehingga dapat digunakan oleh banyak peangkat dengan satu cara saja (tidak ada batasan).
-
-Diibaratkan listrik tersebut adalah sebuah data/informasi, maka Hub akan mengirimkan ke semua perangkat informasi tersebut meskipun beberapa perangkat tidak memiliki kepentingan terhadap informasi yang disampaikan oleh Hub. Ini dianggap sangat berbahaya bagi keamanan data/informasi. Selain itu, pada Hub juga tidak dapat menghindari terjadinya tabrakan (collision) dalam berkomunikasi/pengiriman data. Hal ini terjadi bila pada saat yang bersamaan terdapat dua atau lebih perangkat yang ingin melakukan komunikasi/pengiriman data. Untuk itulah kemudian dikembangkan yang kemudian disebut dengan Switches sebagai solusi dari pemasalahan pada Hub.
-
-Pada dasarnya cara kerja switches yaitu mengirimkan data/informasi ke setiap perangkat (selanjutnya kita contohkan dengan Komputer) dengan menggunakan jaringan akan tetapi masing-masing komputer pada switches terhubung melalui Port sehingga setiap komputer akan mengirimkan data/informasi berdasarkan informasi port yang dimiliki. Port pada masing-masing komputer yang terhubung pada switches berupa informasi mac address jaringan komputer. Switches akan mempelajari dan mengenal setiap perangkat yang terhubung melalui mac address-nya. Hal penting lainya yang menjadi bagian dalam memanajemen Switches dan mengatur konfigurasi Switches antara lain: Speed, yaitu mengatur berapa jumlah maksimum kecepatan switches yang diperlukan untuk masing-masing port; duplex, yaitu sebagai jenis kerja dalam mengantarkan informasi yang terbagi menjadi dua jenis (1) half duplex, bergantian dalam melakukan komunikasi seperti walkie talkie, dan (2) full duplex, dapat melakukan komunikasi dua arah (berbicara dan mendengar diwaktu yang bersamaan); backplane, yaitu  total kapasitas untuk dapat melakukan pengiriman informasi.
-
-Selain itu dalam manajeman Switches terdapat pula Trunk, yaitu yang berfungsi sebagai penghubung antar switches. Vlan (virtual local area network), yaitu membantu switches bila ingin melakukan separate pada port yang tersedia. Bila melakukan separate pada switches maka pada port tertentu yang berbeda vlan tidak dapat melakukan komunikasi. Dan untuk dapat melakukan komunikasi antar vlan perlu yang disebut Router. Ada pula Power over Ethernet, yang berfungsi dalam membantu proses pentransferan data/informasi pada switches. QOS (quality of services), berfungsi untuk membantu mempercetat proses data berdasarkan prioritas data/informasi tersebut. Misalnya prioritas untuk yang audio pada saat melakukan skype, dsb. Serta ada Spanning tree protocol, yaitu digunakan utnuk komunikasi yang memanfaatkan protocol. 
-
-Demikianlah rangkuman terkait Understanding Switches yang sangat membantu mengenal serta fungsi-fungsi utama dari perangkat switches ini. Tidak hanya sekedar sebuah penguhung antara perangkat ke jaringan, namun penggunaaan switches dengan sumber daya yang tepat dapat memaksimalkan kemampuan kinerja perangkat yang terhubung padanya. Penjelasan oleh Eli tha Computer Guy melalui videonya ini sangat menarik untuk didengarkan karena pemahamannya dalam menyampaikan dengan bahasa yang gambaran umum bagi masyarakat awan.
-
-Github Account yang digunakan oleh penulis adalah indahp (https://github.com/indahp/).
-URL ulasan 1 tersaji pada http://indahp-os162-ulasan.blogspot.com/2016/12/understanding-switches.html
-URL video dapat ditonton pada halaman https://www.youtube.com/watch?v=9yYqNqTNnqI (durasi 59 menit 09 detik).
-Submit revisi pertama adalah pada Selasa, 6 Desember 2016.
+Github Account : indahp (https://github.com/indahp/).
+URL ulasan 2 : http://indahp-os162-ulasan.blogspot.com/2016/12/understanding-switches.html
+URL video : https://www.youtube.com/watch?v=9yYqNqTNnqI
+Durasi video : 59 menit 09 detik.
+Submit revisi pertama : Selasa, 6 Desember 2016.
+Submit revisi terakhir : Jumat, 9 Desember 2016. 
